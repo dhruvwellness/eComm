@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Usercontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::view('/','login');
+Route::post("/",[Usercontroller::class,'login']);

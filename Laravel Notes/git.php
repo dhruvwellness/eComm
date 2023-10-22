@@ -2,7 +2,7 @@
 1. Commit and push 
 a. Using Command line.
    git add .
-   git remote add origin https://github.com/Dhruvaggr/eComm.git    [Written on git when we create new repository without readme file]
+   git remote add origin https://github.com/Dhruvaggr/eComm.git  [Written on git when we create new repository without readme file]
    git push -u origin main
 
 b. Using Source Control [Extension]
