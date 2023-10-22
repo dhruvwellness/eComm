@@ -3,6 +3,7 @@
 a. Using Command line.
    git add .
    git remote add origin https://github.com/Dhruvaggr/eComm.git  [Written on git when we create new repository without readme file]
+   git commit -m"write any text here"
    git push -u origin main
 
 b. Using Source Control [Extension]
