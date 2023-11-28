@@ -13,8 +13,8 @@ use App\Http\Controllers\Usercontroller;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::view('/','login');
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::view('/login','login');
 Route::post("/",[Usercontroller::class,'login']);
